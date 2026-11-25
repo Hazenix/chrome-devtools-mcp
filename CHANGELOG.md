@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.15.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.14.0...chrome-devtools-mcp-v1.15.0) (2026-11-25)
+
+
+### 🎉 Features
+
+* add agents plugin marketplace ([#3534](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3534)) ([aa8b35d](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/aa8b35dded1be4401ce56c28a7ee451035579a71))
+* add Codex plugin manifest ([#3588](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3588)) ([ad15052](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/ad15052e3bbaf61dd15f6fad5bac220c8c88615e))
+* **cli:** stop the CLI daemon after --idleTimeout ([#3620](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3620)) ([d0d47a3](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/d0d47a38637b4caa5d8722f36b5b2fe48f2c3cd2)), closes [#3427](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3427)
+* close or disconnect idle browser after --idleTimeout ([#3619](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3619)) ([cd426c2](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/cd426c2c63d5e0ae8ddd30e2eafba886cdd24e33)), closes [#3427](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3427)
+
+
+### 🛠️ Fixes
+
+* **comments:** tell agents to stop when DevTools comments are unsupported ([#3616](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3616)) ([d8d8e58](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/d8d8e583c60d34826f9c1c734ebcc5fcbb80032b))
+* match preflight and prefetch network mocks ([#3608](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3608)) ([7fcebb2](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/7fcebb2b0392bb623ee50383a8e1ef680975b4aa)), closes [#3601](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3601)
+* **skills:** use native label associations in the accessibility check ([#3617](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3617)) ([8c43179](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/8c43179464d368a6a3c7f8ce2ee024e1e736b795))
+
+
+### ⚡ Performance
+
+* load issue descriptions on the first tool call ([#3573](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3573)) ([979e8a4](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/979e8a48a36022f3a4f136dff297d9729419183f))
+
 ## [1.14.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.13.0...chrome-devtools-mcp-v1.14.0) (2026-11-24)
 
 
